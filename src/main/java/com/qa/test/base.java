@@ -16,7 +16,7 @@ public class base {
 	public Properties prop;
 	
 	
-	public void initialisebrowser() throws IOException
+	public WebDriver initialisebrowser() throws IOException
 	{
 		prop = new Properties();
 		FileInputStream fis = new FileInputStream("C:\\Users\\jaya\\workspace\\work\\ProjectE2E\\src\\main\\java\\com\\qa\\test\\data.properties");
@@ -37,7 +37,11 @@ public class base {
 			driver = new FirefoxDriver();
 			
 		}
+	
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		return driver;
 		
 	}
+	
 
 }

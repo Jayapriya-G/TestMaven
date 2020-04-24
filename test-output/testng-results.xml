@@ -2,16 +2,17 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="71" started-at="2020-04-24T11:06:11Z" finished-at="2020-04-24T11:06:11Z">
+  <suite name="Default suite" duration-ms="47" started-at="2020-04-24T11:33:54Z" finished-at="2020-04-24T11:33:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="71" started-at="2020-04-24T11:06:11Z" finished-at="2020-04-24T11:06:11Z">
+    <test name="Default test" duration-ms="47" started-at="2020-04-24T11:33:54Z" finished-at="2020-04-24T11:33:54Z">
       <class name="com.testscases.homepage">
-        <test-method status="FAIL" signature="pagenavigation()[pri:0, instance:com.testscases.homepage@4501b7af]" name="pagenavigation" duration-ms="26" started-at="2020-04-24T16:36:11Z" finished-at="2020-04-24T16:36:11Z">
+        <test-method status="FAIL" signature="pagenavigation()[pri:0, instance:com.testscases.homepage@4501b7af]" name="pagenavigation" duration-ms="21" started-at="2020-04-24T17:03:54Z" finished-at="2020-04-24T17:03:54Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at com.testscases.homepage.pagenavigation(homepage.java:16)
+	at com.qa.test.base.initialisebrowser(base.java:41)
+	at com.testscases.homepage.pagenavigation(homepage.java:15)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)

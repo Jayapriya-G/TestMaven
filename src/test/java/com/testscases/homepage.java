@@ -12,7 +12,7 @@ public class homepage extends base{
 public void pagenavigation() throws IOException
 {
 	 
-	initialisebrowser();
+	driver=initialisebrowser();
 	driver.get("https://qaclickacademy.com");
 }
 }
