@@ -19,7 +19,7 @@ public class base {
 	public void initialisebrowser() throws IOException
 	{
 		prop = new Properties();
-		FileInputStream fis = new FileInputStream("C:\\Users\\jgajjave\\workspace\\work\\ProjectE2E\\src\\main\\java\\com\\qa\\test\\data.properties");
+		FileInputStream fis = new FileInputStream("C:\\Users\\jaya\\workspace\\work\\ProjectE2E\\src\\main\\java\\com\\qa\\test\\data.properties");
 		prop.load(fis);
 		String browserName = prop.getProperty("browser");
 		System.out.println(browserName);
@@ -33,7 +33,7 @@ public class base {
 		
 		else if (browserName.equals("firefox"))
 		{
-			
+			System.out.println("Execute in firefox Browser");
 			driver = new FirefoxDriver();
 			
 		}
